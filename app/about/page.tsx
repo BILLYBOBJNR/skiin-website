@@ -24,43 +24,41 @@ export default function AboutPage() {
       </section>
 
       {/* Story */}
-      <section className="py-20 bg-cream">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="font-serif text-brown font-bold text-3xl mb-6 leading-snug reveal">
-                Where Science Meets
-                <br />
-                <span className="italic font-light">Skin Deep Beauty</span>
-              </h2>
-              <div className="space-y-5 text-brown/70 leading-relaxed">
-                <p>
-                  At SKiiN Laser &amp; Aesthetics, we specialise in advanced medical-grade
-                  aesthetic treatments — designed to deliver visible, long-lasting results
-                  safely, comfortably, and effectively.
-                </p>
-                <p>
-                  Our clinic is built on a foundation of passion for natural beauty and
-                  an unwavering commitment to precision, safety and real results. We
-                  believe that everyone deserves to feel confident and radiant in their
-                  own skin — and that the journey to get there should be a positive,
-                  empowering experience.
-                </p>
-                <p>
-                  From your very first consultation, you&apos;ll be met with warmth, expertise
-                  and a genuine desire to help you reach your skin goals. We listen, we
-                  assess, and we build a plan that&apos;s uniquely yours.
-                </p>
-              </div>
+      <section className="bg-cream overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-2">
+          <div className="flex flex-col justify-center py-20 px-6 sm:px-12 lg:px-16 xl:px-24">
+            <h2 className="font-serif text-brown font-bold text-3xl mb-6 leading-snug reveal">
+              Where Science Meets
+              <br />
+              <span className="italic font-light">Skin Deep Beauty</span>
+            </h2>
+            <div className="space-y-5 text-brown/70 leading-relaxed">
+              <p>
+                At SKiiN Laser &amp; Aesthetics, we specialise in advanced medical-grade
+                aesthetic treatments — designed to deliver visible, long-lasting results
+                safely, comfortably, and effectively.
+              </p>
+              <p>
+                Our clinic is built on a foundation of passion for natural beauty and
+                an unwavering commitment to precision, safety and real results. We
+                believe that everyone deserves to feel confident and radiant in their
+                own skin — and that the journey to get there should be a positive,
+                empowering experience.
+              </p>
+              <p>
+                From your very first consultation, you&apos;ll be met with warmth, expertise
+                and a genuine desire to help you reach your skin goals. We listen, we
+                assess, and we build a plan that&apos;s uniquely yours.
+              </p>
             </div>
-            <div className="relative h-[500px] lg:h-[620px]">
-              <Image
-                src="/images/owner.jpg"
-                alt="Isabelle, founder of SKiiN Laser & Aesthetics"
-                fill
-                className="object-cover object-top"
-              />
-            </div>
+          </div>
+          <div className="relative h-[500px] lg:h-auto min-h-[560px]">
+            <Image
+              src="/images/owner.jpg"
+              alt="Isabelle, founder of SKiiN Laser & Aesthetics"
+              fill
+              className="object-cover object-top"
+            />
           </div>
         </div>
       </section>
@@ -108,47 +106,45 @@ export default function AboutPage() {
       </section>
 
       {/* Technology */}
-      <section className="py-20 bg-cream">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="relative h-80 lg:h-96 order-2 lg:order-1">
-              <Image
-                src="/images/laser-hair.webp"
-                alt="Medical-grade laser technology at SKiiN"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="order-1 lg:order-2">
-              <p className="text-brown/50 text-xs tracking-widest uppercase mb-4 font-medium">
-                Our Equipment
-              </p>
-              <h2 className="font-serif text-brown font-bold text-3xl mb-6 leading-snug reveal">
-                Cutting-edge technology,
-                <br />
-                <span className="italic font-light">expert hands.</span>
-              </h2>
-              <p className="text-brown/70 leading-relaxed mb-6">
-                SKiiN uses only medical-grade, clinically validated technology from leading
-                manufacturers. Our investment in the best equipment means better results,
-                greater safety, and a more comfortable experience for every client.
-              </p>
-              <ul className="space-y-3">
-                {[
-                  "PermaIce Quattro Max AI Diode Laser — 4-wavelength, 360° cooling",
-                  "Derma FNS™ Precision Microneedling Pen",
-                  "SkinMed® EnerPeel® Chemical Peel System",
-                  "PermaHYDRA Medical Facial System",
-                  "Advanced LED Light Therapy Panel",
-                  "Visagé Skin Pro+ Diagnostic Analyser",
-                ].map((item) => (
-                  <li key={item} className="flex items-start gap-3 text-sm text-brown/70">
-                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-brown/40 flex-shrink-0" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
+      <section className="bg-cream overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-2">
+          <div className="relative h-[440px] lg:h-auto min-h-[480px] order-last lg:order-first">
+            <Image
+              src="/images/laser-hair.webp"
+              alt="Medical-grade laser technology at SKiiN"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="flex flex-col justify-center py-20 px-6 sm:px-12 lg:px-16 xl:px-24 order-first lg:order-last">
+            <p className="text-brown/50 text-xs tracking-widest uppercase mb-4 font-medium">
+              Our Equipment
+            </p>
+            <h2 className="font-serif text-brown font-bold text-3xl mb-6 leading-snug reveal">
+              Cutting-edge technology,
+              <br />
+              <span className="italic font-light">expert hands.</span>
+            </h2>
+            <p className="text-brown/70 leading-relaxed mb-6">
+              SKiiN uses only medical-grade, clinically validated technology from leading
+              manufacturers. Our investment in the best equipment means better results,
+              greater safety, and a more comfortable experience for every client.
+            </p>
+            <ul className="space-y-3">
+              {[
+                "PermaIce Quattro Max AI Diode Laser — 4-wavelength, 360° cooling",
+                "Derma FNS™ Precision Microneedling Pen",
+                "SkinMed® EnerPeel® Chemical Peel System",
+                "PermaHYDRA Medical Facial System",
+                "Advanced LED Light Therapy Panel",
+                "Visagé Skin Pro+ Diagnostic Analyser",
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-3 text-sm text-brown/70">
+                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-brown/40 flex-shrink-0" />
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>
