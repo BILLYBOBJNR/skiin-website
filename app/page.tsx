@@ -56,7 +56,7 @@ export default function HomePage() {
             src="/images/hero-bg.jpg"
             alt="SKiiN Laser & Aesthetics hero"
             fill
-            className="object-cover opacity-40"
+            className="object-cover opacity-40 [transform:scaleX(-1)]"
             priority
           />
         </div>
