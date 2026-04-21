@@ -17,7 +17,7 @@ export default function AboutPage() {
           <p className="text-peach text-xs tracking-widest uppercase mb-4 font-medium">
             Our Story
           </p>
-          <h1 className="text-cream font-bold text-5xl lg:text-6xl leading-tight">
+          <h1 className="font-serif text-cream font-bold text-5xl lg:text-6xl leading-tight tracking-wider">
             About SKiiN
           </h1>
         </div>
@@ -28,7 +28,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-brown font-bold text-3xl mb-6 leading-snug">
+              <h2 className="font-serif text-brown font-bold text-3xl mb-6 leading-snug reveal">
                 Where Science Meets
                 <br />
                 <span className="italic font-light">Skin Deep Beauty</span>
@@ -53,12 +53,12 @@ export default function AboutPage() {
                 </p>
               </div>
             </div>
-            <div className="relative h-96 lg:h-[500px]">
+            <div className="relative h-[500px] lg:h-[620px]">
               <Image
                 src="/images/owner.jpg"
-                alt="SKiiN Laser & Aesthetics clinic"
+                alt="Isabelle, founder of SKiiN Laser & Aesthetics"
                 fill
-                className="object-cover"
+                className="object-cover object-top"
               />
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function AboutPage() {
       <section className="py-20 bg-warm-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <h2 className="text-brown font-bold text-4xl mb-4">Our Values</h2>
+            <h2 className="font-serif text-brown font-bold text-4xl mb-4 reveal">Our Values</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
@@ -123,7 +123,7 @@ export default function AboutPage() {
               <p className="text-brown/50 text-xs tracking-widest uppercase mb-4 font-medium">
                 Our Equipment
               </p>
-              <h2 className="text-brown font-bold text-3xl mb-6 leading-snug">
+              <h2 className="font-serif text-brown font-bold text-3xl mb-6 leading-snug reveal">
                 Cutting-edge technology,
                 <br />
                 <span className="italic font-light">expert hands.</span>
@@ -156,7 +156,7 @@ export default function AboutPage() {
       {/* CTA */}
       <section className="py-16 bg-dark text-center">
         <div className="max-w-2xl mx-auto px-4">
-          <h2 className="text-cream font-bold text-3xl mb-4">
+          <h2 className="font-serif text-cream font-bold text-3xl mb-4">
             Ready to begin your journey?
           </h2>
           <p className="text-cream/60 mb-8">

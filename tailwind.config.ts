@@ -19,6 +19,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["Montserrat", "sans-serif"],
+        serif: ["Playfair Display", "Georgia", "serif"],
       },
       letterSpacing: {
         widest: "0.2em",

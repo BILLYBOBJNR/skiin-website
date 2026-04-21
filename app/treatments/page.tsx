@@ -18,7 +18,7 @@ export default function TreatmentsPage() {
           <p className="text-peach text-xs tracking-widest uppercase mb-4 font-medium">
             What We Offer
           </p>
-          <h1 className="text-cream font-bold text-5xl lg:text-6xl mb-6 leading-tight">
+          <h1 className="font-serif text-cream font-bold text-5xl lg:text-6xl mb-6 leading-tight tracking-wider">
             Advanced Aesthetic Care,
             <br />
             <span className="italic font-light">Tailored for You.</span>
@@ -44,7 +44,7 @@ export default function TreatmentsPage() {
       {/* CTA */}
       <section className="py-16 bg-brown">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
-          <h2 className="text-cream font-bold text-3xl mb-4">
+          <h2 className="font-serif text-cream font-bold text-3xl mb-4">
             Not sure which treatment is right for you?
           </h2>
           <p className="text-cream/60 mb-8 leading-relaxed">

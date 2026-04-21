@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import AnnouncementBanner from "@/components/AnnouncementBanner";
+import ScrollReveal from "@/components/ScrollReveal";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Script from "next/script";
@@ -41,6 +42,7 @@ export default function RootLayout({
       <body>
         <AnnouncementBanner />
         <Header />
+        <ScrollReveal />
         <main>{children}</main>
         <Footer />
 

@@ -68,7 +68,7 @@ export default function HomePage() {
             <p className="text-peach text-xs tracking-widest uppercase mb-6 font-medium">
               Expert Care. Medical-Grade Results.
             </p>
-            <h1 className="text-cream font-bold leading-tight mb-6" style={{ fontSize: "clamp(2.5rem, 6vw, 4.5rem)" }}>
+            <h1 className="font-serif text-cream font-bold leading-tight mb-6 tracking-wider" style={{ fontSize: "clamp(2.5rem, 6vw, 4.5rem)" }}>
               Smooth.
               <br />
               Confident.
@@ -109,7 +109,7 @@ export default function HomePage() {
             <p className="text-brown/50 text-xs tracking-widest uppercase mb-3 font-medium">
               What We Offer
             </p>
-            <h2 className="text-brown font-bold text-4xl mb-4">
+            <h2 className="font-serif text-brown font-bold text-4xl mb-4 reveal">
               Explore Our Treatments
             </h2>
             <p className="text-brown/60 max-w-xl mx-auto text-base leading-relaxed">
@@ -149,7 +149,7 @@ export default function HomePage() {
           <p className="text-peach text-xs tracking-widest uppercase mb-4 font-medium">
             Personalised Plans
           </p>
-          <h2 className="text-cream font-bold text-4xl lg:text-5xl mb-6 leading-tight">
+          <h2 className="font-serif text-cream font-bold text-4xl lg:text-5xl mb-6 leading-tight reveal">
             Let our experts build a plan
             <br />
             <span className="italic font-light">tailored just for you.</span>
@@ -169,7 +169,7 @@ export default function HomePage() {
             <p className="text-brown/50 text-xs tracking-widest uppercase mb-3 font-medium">
               Our Promise
             </p>
-            <h2 className="text-brown font-bold text-4xl">
+            <h2 className="font-serif text-brown font-bold text-4xl reveal">
               Why Choose SKiiN?
             </h2>
           </div>
@@ -190,7 +190,7 @@ export default function HomePage() {
       {/* Signature quote */}
       <section className="py-16 bg-peach">
         <div className="max-w-3xl mx-auto px-4 text-center">
-          <blockquote className="text-brown text-2xl lg:text-3xl font-light italic leading-relaxed">
+          <blockquote className="font-serif text-brown text-2xl lg:text-3xl font-light italic leading-relaxed reveal">
             &ldquo;Where Science Meets Skin Deep Beauty&rdquo;
           </blockquote>
           <Link
@@ -211,7 +211,7 @@ export default function HomePage() {
               <p className="text-brown/50 text-xs tracking-widest uppercase mb-4 font-medium">
                 Our Signature Range
               </p>
-              <h2 className="text-brown font-bold text-4xl mb-6 leading-snug">
+              <h2 className="font-serif text-brown font-bold text-4xl mb-6 leading-snug reveal">
                 Advanced treatments.
                 <br />
                 <span className="italic font-light">Real results.</span>
@@ -281,7 +281,7 @@ export default function HomePage() {
               <p className="text-brown/50 text-xs tracking-widest uppercase mb-3 font-medium">
                 Get in Touch
               </p>
-              <h2 className="text-brown font-bold text-4xl mb-6">
+              <h2 className="font-serif text-brown font-bold text-4xl mb-6 reveal">
                 Start your journey
               </h2>
               <p className="text-brown/60 leading-relaxed mb-10">
